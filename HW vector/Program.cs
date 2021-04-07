@@ -6,11 +6,8 @@ namespace HW_vector
     {
         static void Main(string[] args)
         {
-            int x1 = 2, y1 = 3, z1 = 6;
-            int x2 = 1, y2 = 5, z2 = 2;
-
-            var v1 = new Vector(x1, y1, z1);
-            var v2 = new Vector(x2, y2, z2);
+            var v1 = new Vector(2, 3, 6);
+            var v2 = new Vector(1, 5, 2);
             var v1v2 = new TwoVectors(v1, v2);
 
             Vectors(v1, v2);

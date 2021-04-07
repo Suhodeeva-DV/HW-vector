@@ -30,18 +30,5 @@ namespace HW_vector
             return l;
         }
 
-        public int CoordinatX()
-        {
-            return x;
-        }
-        public int CoordinatY()
-        {
-            return y;
-        }
-        public int CoordinatZ()
-        {
-            return z;
-        }
-
     }
 }

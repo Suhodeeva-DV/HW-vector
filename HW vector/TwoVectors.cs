@@ -17,12 +17,12 @@ namespace HW_vector
         {
             this.v1 = v1;
             this.v2 = v2;
-            x1 = v1.CoordinatX();
-            y1 = v1.CoordinatY();
-            z1 = v1.CoordinatZ();
-            x2 = v2.CoordinatX();
-            y2 = v2.CoordinatY();
-            z2 = v2.CoordinatZ();
+            x1=v1.x;
+            y1 = v1.y;
+            z1 = v1.z;
+            x2 = v2.x;
+            y2 = v2.y;
+            z2 = v2.z;
         }
 
         public int ScalarMultiply()
