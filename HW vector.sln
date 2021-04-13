@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW vector", "HW vector\HW vector.csproj", "{F556BA24-EDB9-4778-AB2C-052C302E1976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW vector", "HW vector\HW vector.csproj", "{F556BA24-EDB9-4778-AB2C-052C302E1976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestVector", "UnitTestVector\UnitTestVector.csproj", "{148A057E-1371-4B18-9B91-EB21139FD122}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F556BA24-EDB9-4778-AB2C-052C302E1976}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F556BA24-EDB9-4778-AB2C-052C302E1976}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F556BA24-EDB9-4778-AB2C-052C302E1976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148A057E-1371-4B18-9B91-EB21139FD122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148A057E-1371-4B18-9B91-EB21139FD122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148A057E-1371-4B18-9B91-EB21139FD122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148A057E-1371-4B18-9B91-EB21139FD122}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
